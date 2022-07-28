@@ -14,6 +14,7 @@ namespace SortItems
             {
                 Vector3 offset = new Vector3(Random.Range(-_range.x, _range.x), Random.Range(-_range.y, _range.y), Random.Range(-_range.z, _range.z));
                 Instantiate(_prefab, transform.position + offset, Quaternion.identity, transform);
+                // Instantiate(_prefab);
             }
         }
 
