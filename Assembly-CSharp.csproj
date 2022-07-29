@@ -38,6 +38,7 @@
   <ItemGroup>
      <Compile Include="Assets\Game\Scrirts\DragItem.cs" />
      <Compile Include="Assets\Game\Scrirts\ItemSpawner.cs" />
+     <Compile Include="Assets\Game\Scrirts\Getter.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>

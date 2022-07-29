@@ -7,6 +7,8 @@ namespace SortItems
     {
         private Rigidbody _rigidbody;
 
+        public bool isDraggable {get; private set;}
+
         private void Start ()
         {
             _rigidbody = GetComponent<Rigidbody>();
@@ -23,11 +25,13 @@ namespace SortItems
         public void OnPointerDown(PointerEventData eventData)
         {
             _rigidbody.isKinematic = true;
+            isDraggable = true;
         }
 
         public void OnPointerUp(PointerEventData eventData)
         {
            _rigidbody.isKinematic = false;
+           isDraggable = false;
         }
     }
 }
