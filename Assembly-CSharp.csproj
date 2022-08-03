@@ -37,6 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Game\Scrirts\DragItem.cs" />
+     <Compile Include="Assets\Game\Scrirts\ScoreHandler.cs" />
+     <Compile Include="Assets\Game\Scrirts\SceneChanger.cs" />
+     <Compile Include="Assets\Game\Scrirts\BaseILevel.cs" />
+     <Compile Include="Assets\Game\Scrirts\ItemType.cs" />
      <Compile Include="Assets\Game\Scrirts\ItemSpawner.cs" />
      <Compile Include="Assets\Game\Scrirts\Getter.cs" />
     <Reference Include="UnityEngine">
